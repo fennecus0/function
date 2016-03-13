@@ -3,10 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <script src="app.js"></script>
+  <link rel="stylesheet" href="stylesheets/screen.css" media="screen" title="no title" charset="utf-8">
+  <script src="js/app.js"></script>
 </head>
 <body>
-  <h1>Hello World</h1>
+<br>
+<br>
+<div class="container">
+  <h1>todo</h1>
+  <div class="row">
+    <div class="col-sm-6">
+        <div class="input-group">
+          <span class="input-group-addon"><a class="btn-all" id="btn-checkall" type="button">CheckAll</a></span>
+          <input type="text" class="form-control" id="globalText">
+        </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-6">
+      <ul id="form">
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div class="row">
 
+    <div class="col-sm-3">
+      <div class="todoCountAll">
+        <i></i> item left
+      </div>
+    </div>
+    <div class="col-sm-3"></div>
+    <div class="col-sm-3"></div>
+  </div>
+</div>
 </body>
 </html>
